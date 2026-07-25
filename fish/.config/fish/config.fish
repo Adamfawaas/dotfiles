@@ -9,6 +9,7 @@
     # Better ls
     alias ls='eza --icons --group-directories-first -1'
     alias waifu='waifu2x-ncnn-vulkan -n 2 -s 2 -i'
+    alias dotsync='cp -r ~/.config/hypr ~/dotfiles/hypr/.config/ && cp -r ~/.config/fish ~/dotfiles/fish/.config/ && cp -r ~/.config/fastfetch ~/dotfiles/fastfetch/.config/ && cp -r ~/.config/foot ~/dotfiles/foot/.config/ && cd ~/dotfiles && git add . && git commit -m "sync dotfiles" && git push'
 
     # Abbrs
     abbr lg 'lazygit'
