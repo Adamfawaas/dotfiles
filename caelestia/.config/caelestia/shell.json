@@ -1,0 +1,91 @@
+{
+    "appearance": {
+        "transparency": {
+            "base": 0.6851229914440735,
+            "enabled": true,
+            "layers": 0.6815819334307178
+        }
+    },
+    "bar": {
+        "activeWindow": {
+            "compact": true,
+            "inverted": true
+        },
+        "clock": {
+            "background": true,
+            "showDate": true
+        },
+        "entries": [
+            {
+                "enabled": true,
+                "id": "logo"
+            },
+            {
+                "enabled": true,
+                "id": "workspaces"
+            },
+            {
+                "enabled": true,
+                "id": "spacer"
+            },
+            {
+                "enabled": true,
+                "id": "activeWindow"
+            },
+            {
+                "enabled": true,
+                "id": "spacer"
+            },
+            {
+                "enabled": true,
+                "id": "tray"
+            },
+            {
+                "enabled": true,
+                "id": "clock"
+            },
+            {
+                "enabled": true,
+                "id": "statusIcons"
+            },
+            {
+                "enabled": true,
+                "id": "power"
+            },
+            {
+                "enabled": true,
+                "id": "idleInhibitor"
+            }
+        ],
+        "status": {
+            "showAudio": true,
+            "showKbLayout": true,
+            "showMicrophone": false
+        },
+        "workspaces": {
+            "maxWindowIcons": 6,
+            "occupiedBg": false,
+            "shown": 6
+        }
+    },
+    "dashboard": {
+        "performance": {
+            "showBattery": true
+        }
+    },
+    "launcher": {
+        "showOnHover": true,
+        "useFuzzy": {
+            "apps": true,
+            "schemes": true,
+            "variants": true,
+            "wallpapers": true
+        }
+    },
+    "notifs": {
+        "defaultExpireTimeout": 5000
+    },
+    "services": {
+        "gpuType": "NVIDIA"
+    }
+}
