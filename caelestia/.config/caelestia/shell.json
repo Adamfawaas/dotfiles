@@ -9,11 +9,13 @@
     "bar": {
         "activeWindow": {
             "compact": true,
-            "inverted": true
+            "inverted": true,
+            "showOnHover": true
         },
         "clock": {
-            "background": true,
-            "showDate": true
+            "background": false,
+            "showDate": true,
+            "showIcon": false
         },
         "entries": [
             {
@@ -57,12 +59,21 @@
                 "id": "idleInhibitor"
             }
         ],
+        "popouts": {
+            "statusIcons": true
+        },
         "status": {
             "showAudio": true,
+            "showBattery": true,
             "showKbLayout": true,
+            "showLockStatus": true,
             "showMicrophone": false
         },
+        "tray": {
+            "background": false
+        },
         "workspaces": {
+            "activeTrail": false,
             "maxWindowIcons": 6,
             "occupiedBg": false,
             "shown": 6
@@ -86,6 +97,7 @@
         "defaultExpireTimeout": 5000
     },
     "services": {
-        "gpuType": "NVIDIA"
+        "gpuType": "NVIDIA",
+        "visualiserBars": 80
     }
 }

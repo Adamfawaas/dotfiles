@@ -45,3 +45,6 @@
     # Custom fish config
     source ~/.config/caelestia/user-config.fish 2> /dev/null
 end
+
+# Created by `pipx` on 2026-08-20 23:14:54
+set PATH $PATH /home/riisoto/.local/bin

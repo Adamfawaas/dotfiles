@@ -1,0 +1,1 @@
+/home/riisoto/.config/quickshell/shell.lua
